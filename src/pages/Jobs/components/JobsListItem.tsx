@@ -1,5 +1,11 @@
 import React from "react";
 
-export const JobsListItem: React.FC = () => {
+
+interface JobsListItemProps {
+  company_logo: string;
+
+}
+
+export const JobsListItem: React.FC<JobsListItemProps> = ({}) => {
   return <div></div>;
 };

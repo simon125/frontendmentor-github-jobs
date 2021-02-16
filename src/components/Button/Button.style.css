@@ -1,0 +1,13 @@
+.button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.button__primary{
+    background-color: var(--blue);
+}
+.button__secondary{
+    background-color: var(--light);
+}

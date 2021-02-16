@@ -1,0 +1,24 @@
+.toggle-checkbox__container {
+  width: 50px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.toggle-checkbox__bullet {
+  margin-left: 4px;
+  width: 16px;
+  height: 16px;
+  font-size: 0;
+  display: inline-block;
+  background-color: var(--blue);
+  border-radius: 50%;
+  transition: all 0.2s linear;
+}
+
+:checked + .toggle-checkbox__bullet {
+  transform: translateX(25px);
+}

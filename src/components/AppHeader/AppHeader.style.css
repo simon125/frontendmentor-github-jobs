@@ -1,0 +1,36 @@
+.haeder {
+  position: relative;
+  background-color: var(--blue);
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 20px 20px 0 20px;
+  overflow: hidden;
+}
+
+.headr__website-name {
+  position: relative;
+  z-index: 10;
+  color: var(--white);
+  font-weight: 600;
+}
+
+.header__shapes-container {
+  position: absolute;
+  display: flex;
+  z-index: 0;
+}
+
+.header__mode-toggle {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__button-wrapper{
+    margin: 0 5px;
+}
